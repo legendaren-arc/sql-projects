@@ -13,11 +13,12 @@ The dataset was obtained through Spotify's official data request and provided in
 - **Quering Language:** SQL 
 ---
 
+## Contents  
+- **I.** *Data Cleaning: Handling Missing and Unnecessary Data*  
+- **II.** *Data Transformation: Converting and Formatting Data*  
+- **III.** *Feature Engineering: Extracting Useful Information from Timestamps*  
+- **IV.** *Standardizing Column Names and Data Types*  
+- **V.** *Data Analysis Queries*  
 
- **Contents**  
-   **I.** *Data Cleaning: Handling Missing and Unnecessary Data.*
-   **II.** *Data Transformation: Converting and Formatting Data*
-   **III.** *Feature Engineering: Extracting Useful Information from Timestamps*
-   **IV.** *Standardizing Column Names and Data Types*
-   **V.** *Data Analysis Queries*
+
 
