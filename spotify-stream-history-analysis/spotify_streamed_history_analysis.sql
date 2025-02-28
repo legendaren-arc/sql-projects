@@ -67,19 +67,19 @@ SET SQL_SAFE_UPDATES = 0;
 UPDATE spotify_stream
 SET track_timestamp = convert_tz(
 	STR_TO_DATE(ts, '%Y-%m-%dT%H:%i:%sZ'), #Converts the stored string from ts into MySQL's DATETIME format.
-    '+00:00',
-    '+08:00' #Converts UTC (+00:00) to Philippine Time (+08:00).
+    	'+00:00',
+    	'+08:00' #Converts UTC (+00:00) to Philippine Time (+08:00).
 );
 
 -- d. query to verify successful timestamp conversion
 SELECT ts, 
-		track_timestamp 
+	track_timestamp 
         FROM spotify_stream; 
         
 -- e. query to ensure all timestamps were updated correctly
 SELECT 
 	COUNT(ts) AS ts_filled,
-    COUNT(track_timestamp) AS track_timestamp_filled
+    	COUNT(track_timestamp) AS track_timestamp_filled
 FROM spotify_stream;
         
 -- f. query to drop the original `ts` column since the formatted `track_timestamp` will be used
@@ -113,17 +113,17 @@ SET streamed_at = TIME(track_timestamp);
 
 -- g. query to ensure new features are correctly populated
 SELECT track_timestamp,
-	   month_played,
-       stream_day,
-       streamed_at
+	month_played,
+	stream_day,
+	streamed_at
 FROM spotify_stream;
 
 -- h. query to verify if the populated columns has no null values
 SELECT
 	COUNT(track_timestamp) AS track_timestamp_filled,
-    COUNT(month_played) AS month_played_filled,
-    COUNT(stream_day) AS stream_day_filled,
-    COUNT(streamed_at) AS streamed_at_filled
+	COUNT(month_played) AS month_played_filled,
+	COUNT(stream_day) AS stream_day_filled,
+	COUNT(streamed_at) AS streamed_at_filled
 FROM spotify_stream;
 
 -- i. query to filter all columns (check new updated table)
@@ -144,13 +144,13 @@ SET stream_duration = ROUND(ms_played / 60000, 2);
 
 -- m. query to check if the conversion was succesfull
 SELECT ms_played, 
-	   stream_duration 
+       stream_duration 
 FROM spotify_stream;
 
 -- n. query to verify if all rows have data
 SELECT 
 	COUNT(ms_played) AS ms_played_filled,
-    COUNT(stream_duration) AS stream_duration_filled
+    	COUNT(stream_duration) AS stream_duration_filled
 FROM spotify_stream;
 
 -- IV. Standardizing Column Names and Data Types
@@ -185,8 +185,8 @@ ORDER BY streamed_tracks_per_day DESC;
 -- c. query to analyze listening trends by month
 SELECT 
 	YEAR(track_timestamp) AS stream_year,
-    month_played,
-    COUNT(*) AS total_streamed
+	month_played,
+	COUNT(*) AS total_streamed
 FROM spotify_stream
 WHERE YEAR(track_timestamp) IN (2023, 2024) 
 GROUP BY stream_year, month_played
@@ -223,12 +223,12 @@ LIMIT 20;
 -- a. query for Short-Stream & Skip Behavior Study
 SELECT 
 	COUNT(CASE WHEN skipped = 'True' THEN 1 END) AS skipped_cases,
-    COUNT(CASE WHEN stream_duration < 1 THEN 1 END) AS short_stream_music
+	COUNT(CASE WHEN stream_duration < 1 THEN 1 END) AS short_stream_music
 FROM spotify_stream;
 
 SELECT 
 	COUNT(CASE WHEN skipped = 'False' THEN 1 END) AS non_skipped_cases,
-    COUNT(CASE WHEN stream_duration > 1 THEN 1 END) AS longer_stream_music
+	COUNT(CASE WHEN stream_duration > 1 THEN 1 END) AS longer_stream_music
 FROM spotify_stream;
 
 -- b. query for Platform Usage Trends
