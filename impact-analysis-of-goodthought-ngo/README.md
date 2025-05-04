@@ -1,4 +1,4 @@
-# GoodThought NGO Data Analysis Project
+# Impact Analysis of GoodThought NGO Initiatives
 
 ## Project Overview
 
@@ -54,13 +54,13 @@ The project conducted SQL-driven analysis to answer the following key questions:
 - **DataLab from DataCamp**: Used as the working environment for query design, results interpretation, and markdown documentation.
 
 
-## 📌 Key Insights
+## Key Insights
 
 - Some regions received disproportionately higher funding and project support.
 - A handful of donors consistently made large contributions, suggesting a potential for targeted donor engagement strategies.
 - Project budgets had occasional data entry issues, warranting better data validation in upstream systems.
 - A clear upward trend in project impact over time suggests growing efficiency or better targeting of resources.
 
-## ✅ Conclusion
+## Conclusion
 
 This project illustrates how structured query language (SQL) and domain-specific analytics can be leveraged to enhance operational transparency and strategic planning in the nonprofit sector. By understanding donor behavior, regional needs, and project performance, GoodThought can refine its efforts to maximize impact.
