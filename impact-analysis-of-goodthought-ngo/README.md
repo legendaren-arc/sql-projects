@@ -1,10 +1,10 @@
-# 📊 GoodThought NGO Data Analysis Project
+# GoodThought NGO Data Analysis Project
 
-## 🧭 Project Overview
+## Project Overview
 
 This data analytics project explores the operations of **GoodThought**, a non-governmental organization committed to improving lives through education, healthcare, and sustainable development from **2010 to 2023**. The analysis aims to generate actionable insights from the NGO’s internal **PostgreSQL** database, focusing on donor contributions, project assignments, and impact assessments across regions.
 
-## 🗃️ Dataset Description
+## Dataset Description
 
 The dataset comprises the following relational tables:
 
@@ -20,7 +20,7 @@ The dataset comprises the following relational tables:
 - **`donors`**: Information about individuals or organizations who contributed:
   - `donor_id`, `donor_name`, `donor_type`, `country`
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 During initial exploration, some anomalies (e.g., **negative budget values**) were detected. Cleaning steps included:
 
@@ -28,7 +28,7 @@ During initial exploration, some anomalies (e.g., **negative budget values**) we
 - Validating foreign key relationships between tables to ensure referential integrity.
 - Truncating and previewing tables to validate schema and data quality before analysis.
 
-## 📈 Analytical Objectives & Queries
+## Analytical Objectives & Queries
 
 The project conducted SQL-driven analysis to answer the following key questions:
 
@@ -48,11 +48,11 @@ The project conducted SQL-driven analysis to answer the following key questions:
 - Assessed changes in assignment volume and funding over the years.
 - Explored time-series trends using `EXTRACT(YEAR FROM donation_date)`.
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **SQL**: PostgreSQL flavor for all queries.
-- **Jupyter Notebook**: Used as the working environment for query design, results interpretation, and markdown documentation.
-- **Pandas & Matplotlib** *(Optional in further extensions)*: For advanced analysis and data visualization.
+- **DataLab from DataCamp**: Used as the working environment for query design, results interpretation, and markdown documentation.
+
 
 ## 📌 Key Insights
 
