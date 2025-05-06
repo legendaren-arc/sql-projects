@@ -65,7 +65,7 @@ The project conducted SQL-driven analysis to answer the following key questions:
 
 This project illustrates how structured query language (SQL) and domain-specific analytics can be leveraged to enhance operational transparency and strategic planning in the nonprofit sector. By understanding donor behavior, regional needs, and project performance, GoodThought can refine its efforts to maximize impact.
 
-
+---
 > - Data, Context and Environment Source: **DataLab by DataCamp**
 > - Authored by: **Daren Dale Aldea**
 > - The analysis problems for **Items B and C** were provided by DataCamp, whereas the **subsequent analyses, context and sections were independently configured and conducted by the author.**
