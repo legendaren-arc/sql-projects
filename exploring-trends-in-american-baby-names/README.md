@@ -40,7 +40,7 @@ The dataset, named `baby_names`, contains records of baby names registered in th
 
 ---
 
-## SQL Concepts Practiced
+## SQL Concepts
 
 - Common Table Expressions (CTEs) to organize multi-step queries
 - Subqueries for dynamic filtering and ranking
