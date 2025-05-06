@@ -6,12 +6,13 @@ This data analytics project explores the operations of **GoodThought**, a non-go
 
 ## Table of Contents
 
-- [Dataset Description](#data-description)
-- [Data Cleaning & Preparation](#data-cleaning-&-preparation)
-- [Analytical Objectives & Queries](#analytical-objectives-&-queries)
+- [Dataset Description](#dataset-description)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Analytical Objectives and Queries](#analytical-objectives-and-queries)
 - [Tools Used](#tools-used)
 - [Key Insights](#key-insights)
 - [Conclusion](#conclusion)
+
 
 
 ## Dataset Description
