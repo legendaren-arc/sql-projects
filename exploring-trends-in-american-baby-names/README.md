@@ -80,4 +80,4 @@ This mini-project provided practical experience in intermediate SQL. It helped i
 ---
 > - Data, Context and Environment Source: **DataLab by DataCamp**
 > - Authored by: **Daren Dale Aldea**
-> - The analysis problems for **Items D and E** were provided by DataCamp, whereas the **subsequent analyses, context and sections were independently configured and conducted by the author.**
+> - Note: The analysis problems for **Items D and E** were provided by DataCamp, whereas the **subsequent analyses, context and sections were independently configured and conducted by the author.**
