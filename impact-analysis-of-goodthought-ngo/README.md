@@ -4,6 +4,16 @@
 
 This data analytics project explores the operations of **GoodThought**, a non-governmental organization committed to improving lives through education, healthcare, and sustainable development from **2010 to 2023**. The analysis aims to generate actionable insights from the NGO’s internal **PostgreSQL** database mainly sourced and credited to **DataCamp**, focusing on donor contributions, project assignments, and impact assessments across regions.
 
+## Table of Contents
+
+- [Dataset Description](#data-description)
+- [Data Cleaning & Preparation](#data-cleaning-&-preparation)
+- [Analytical Objectives & Queries](#analytical-objectives-&-queries)
+- [Tools Used](#tools-used)
+- [Key Insights](#key-insights)
+- [Conclusion](#conclusion)
+
+
 ## Dataset Description
 
 The dataset comprises the following relational tables:
