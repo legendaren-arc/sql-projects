@@ -31,7 +31,7 @@ The dataset comprises the following relational tables:
 - **`donors`**: Information about individuals or organizations who contributed:
   - `donor_id`, `donor_name`, `donor_type`, `country`
 
-## Data Cleaning & Preparation
+## Data Cleaning and Preparation
 
 During initial exploration, some anomalies (e.g., **negative budget values**) were detected. Cleaning steps included:
 
@@ -39,7 +39,7 @@ During initial exploration, some anomalies (e.g., **negative budget values**) we
 - Validating foreign key relationships between tables to ensure referential integrity.
 - Truncating and previewing tables to validate schema and data quality before analysis.
 
-## Analytical Objectives & Queries
+## Analytical Objectives and Queries
 
 The project conducted SQL-driven analysis to answer the following key questions:
 
