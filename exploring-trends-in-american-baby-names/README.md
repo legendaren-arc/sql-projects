@@ -78,3 +78,6 @@ This mini-project provided practical experience in intermediate SQL. It helped i
 - **DataLab from DataCamp:** Used as the working environment for query design, results interpretation, and markdown documentation.
 
 ---
+> Data and Environment Source: **All rights reserved to DataLab by DataCamp**
+> Authored by: **Daren Dale Aldea**
+> The analysis problems for **Items D and E** were provided by DataCamp, whereas the **subsequent analyses were independently configured and conducted by the author.**
