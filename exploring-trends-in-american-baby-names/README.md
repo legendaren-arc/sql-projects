@@ -1,6 +1,6 @@
 ﻿# Exploring Trends in American Baby Names
 
-This project explores historical trends in U.S. baby names using a dataset sourced from DataCamp.
+This project explores historical trends in U.S. baby names using a dataset sourced from DataCamp's Database.
 It focuses on uncovering meaningful insights into naming patterns, gender trends, and the evolution of baby name popularity across different decades.
 
 
@@ -74,7 +74,7 @@ This mini-project provided practical experience in intermediate SQL. It helped i
 
 ## Tools Used
 
-- SQL: PostgreSQL flavor for all queries.
-- DataLab from DataCamp: Used as the working environment for query design, results interpretation, and markdown documentation.
+- **SQL:** PostgreSQL flavor for all queries.
+- **DataLab from DataCamp:** Used as the working environment for query design, results interpretation, and markdown documentation.
 
 ---
