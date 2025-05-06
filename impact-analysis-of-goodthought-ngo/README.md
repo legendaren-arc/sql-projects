@@ -68,4 +68,4 @@ This project illustrates how structured query language (SQL) and domain-specific
 ---
 > - Data, Context and Environment Source: **DataLab by DataCamp**
 > - Authored by: **Daren Dale Aldea**
-> - The analysis problems for **Items B and C** were provided by DataCamp, whereas the **subsequent analyses, context and sections were independently configured and conducted by the author.**
+> - Note: The analysis problems for **Items B and C** were provided by DataCamp, whereas the **subsequent analyses, context and sections were independently configured and conducted by the author.**
