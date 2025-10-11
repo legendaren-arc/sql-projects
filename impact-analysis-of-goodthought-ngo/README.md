@@ -2,7 +2,15 @@
 
 ## Project Overview
 
-This data analytics project explores the operations of **GoodThought**, a non-governmental organization committed to improving lives through education, healthcare, and sustainable development from **2010 to 2023**. The analysis aims to generate actionable insights from the NGO’s internal **PostgreSQL** database mainly sourced and credited to **DataCamp**, focusing on donor contributions, project assignments, and impact assessments across regions.
+GoodThought NGO is a global non-profit organization dedicated to **education**, **healthcare**, and **sustainable development**. It has driven positive change by managing diverse humanitarian projects aimed at improving the quality of life in underserved communities worldwide.
+
+To further optimize its initiatives, GoodThought maintains a **PostgreSQL database** that documents operational and financial data from 2010 to 2023. This project leverages that database to derive data-driven insights for better decision-making.
+
+The database contains three key tables:
+
+- Assignments – Details of NGO projects: name, region, duration, budget, and impact score.
+- Donations – Records of all financial contributions tied to specific donors and assignments.
+- Donors – Information on individuals and organizations that contribute funding.
 
 ## Table of Contents
 
