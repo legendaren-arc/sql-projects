@@ -1,7 +1,5 @@
 ﻿# Exploring Trends in American Baby Names
 
-Executive summary
-
 This project explores historical trends in U.S. baby names using a dataset sourced from DataCamp's Database. It focuses on uncovering meaningful insights into naming patterns, gender trends, and the evolution of baby name popularity across different decades.
 
 ---
