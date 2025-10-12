@@ -2,9 +2,16 @@
 
 ## Project Overview
 
-GoodThought NGO is a global non-profit organization dedicated to **education**, **healthcare**, and **sustainable development**. It has driven positive change by managing diverse humanitarian projects aimed at improving the quality of life in underserved communities worldwide.
+GoodThought NGO is a global non-profit organization dedicated to education, healthcare, and sustainable development. It has driven positive change by managing diverse humanitarian projects aimed at improving the quality of life in underserved communities worldwide.  This project is part of the official assessment from DataCamp that leverages PostgreSQL database containing data from from 2010 to 2023  to derive data-driven insights for better decision-making.
 
-To further optimize its initiatives, GoodThought maintains a **PostgreSQL database** that documents operational and financial data from 2010 to 2023. This project leverages that database to derive data-driven insights for better decision-making.
+## Background and Problem Statement
+
+GoodThought NGO runs multiple regional assignments across education, healthcare, and sustainable development. The organization needs to ensure that funds are allocated to projects that deliver the highest impact while maintaining strong donor relationships.
+
+Challenges encountered:
+- Presence of negative budget values in the assignments table (data quality issue).
+- Unclear relationship between impact score and allocation (are high-impact projects underfunded?).
+- Need to rank assignments and donors by impact and contributions.
 
 The database contains three key tables:
 
