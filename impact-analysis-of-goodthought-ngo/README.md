@@ -46,19 +46,19 @@ This meticulous data cleaning process ensured a **trustworthy foundation** for s
 
 The project conducted SQL-driven analysis to answer the following key questions:
 
-### A. **Regional Assignment Distribution**
+#### A. **Regional Assignment Distribution**
 - Identified which regions received the most NGO project attention.
 - Computed percentages of total assignments per region.
 
-### B. **High Impact Projects**
+#### B. **High Impact Projects**
 - Isolated projects with above-average impact scores and significant budgets.
 - Used `AVG(impact_score)` as a benchmark for performance.
 
-### C. **Donor Contribution Trends**
+#### C. **Donor Contribution Trends**
 - Summarized donation behavior by donor type (individual vs organization).
 - Ranked top donors based on total contribution amounts.
 
-### D. **Year-on-Year Impact**
+#### D. **Year-on-Year Impact**
 - Assessed changes in assignment volume and funding over the years.
 - Explored time-series trends using `EXTRACT(YEAR FROM donation_date)`.
 
