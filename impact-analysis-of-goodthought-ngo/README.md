@@ -29,16 +29,8 @@ To visualize the relational structure and dependencies among the three core enti
 
 ![Entity Relationship Diagram](./erd.png)
 
-### V. Table of Contents
 
-- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-- [Analytical Objectives and Queries](#analytical-objectives-and-queries)
-- [Tools Used](#tools-used)
-- [Key Insights](#key-insights)
-- [Conclusion](#conclusion)
-
-
-### VI. Data Cleaning and Preparation
+### V. Data Cleaning and Preparation
 
 Initial data exploration uncovered anomalies such as **negative budgets** and **unreferenced foreign keys**.  
 To ensure analytical accuracy and relational consistency, the following data preparation steps were conducted:
@@ -50,7 +42,7 @@ To ensure analytical accuracy and relational consistency, the following data pre
 
 This meticulous data cleaning process ensured a **trustworthy foundation** for subsequent insights.
 
-### VII. Analytical Objectives and Queries
+### VI. Analytical Objectives and Queries
 
 The project conducted SQL-driven analysis to answer the following key questions:
 
@@ -71,24 +63,24 @@ The project conducted SQL-driven analysis to answer the following key questions:
 - Explored time-series trends using `EXTRACT(YEAR FROM donation_date)`.
 
 
-### VIII. Tools Used
+### VII. Tools Used
 
 - **SQL**: PostgreSQL flavor for all queries.
 - **DataLab from DataCamp**: Used as the working environment for query design, results interpretation, and markdown documentation.
 
 
-### IX. Key Insights
+### VIII. Key Insights
 
 - Some regions received disproportionately higher funding and project support.
 - A handful of donors consistently made large contributions, suggesting a potential for targeted donor engagement strategies.
 - Project budgets had occasional data entry issues, warranting better data validation in upstream systems.
 - A clear upward trend in project impact over time suggests growing efficiency or better targeting of resources.
 
-### X. Conclusion
+### IX. Conclusion
 
 This project illustrates how structured query language (SQL) and domain-specific analytics can be leveraged to enhance operational transparency and strategic planning in the nonprofit sector. By understanding donor behavior, regional needs, and project performance, GoodThought can refine its efforts to maximize impact.
 
-### XI. Recommendations
+### X. Recommendations
 
 1. **Implement Data Validation Rules:** Prevent future negative or null financial entries in the project database.  
 2. **Reassess Funding Allocation:** Evaluate underfunded yet high-impact projects for strategic investment.  
