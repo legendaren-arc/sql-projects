@@ -6,7 +6,7 @@ These projects highlight my ability to transform, clean, and analyze data throug
 Each project demonstrates real-world data applications — from managing and cleaning datasets to generating insights that support data-driven decisions.
 
 
-# 🚀 Key Highlights
+## 🚀 Key Highlights
 
 - **Data Cleaning & Preparation**  
   Handling missing, inconsistent, and unstructured data to prepare datasets for analysis.
@@ -21,28 +21,28 @@ Each project demonstrates real-world data applications — from managing and cle
   Converting raw data into meaningful insights that reflect trends, performance metrics, and behavioral patterns.
 
 
-# 🧠 Tools & Technologies
+## 🧠 Tools & Technologies
 
 - **Databases:** MySQL · PostgreSQL  
 - **Techniques:** Data Cleaning · Data Transformation · Query Optimization · Window Functions · CTEs  
 - **Focus Areas:** Data Analytics · Reporting · ETL Logic ·  Insights
 
 
-# 💡 What You’ll Learn
+## 💡 What You’ll Learn
 
 Through these projects, I showcase how SQL can be used not just for data retrieval but as a **powerful analytical tool** for:  
 - Deriving insights from structured datasets  
 - Supporting evidence-based decision-making
 
 
-# 🧑‍💻 Author
+## 🧑‍💻 Author
 
 **Daren Dale ALdea**  
 📍 *Data Analyst Associate | SQL Associate | Data Visualization Enthusiast*  
 
 
 
-# ⭐ Contribute / Feedback
+## ⭐ Contribute / Feedback
 
 If you find these projects insightful or have ideas for improvement, feel free to open an issue or reach out.  
 Collaboration and feedback are always welcome!
