@@ -11,9 +11,9 @@ The dataset was obtained through Spotify's official data request and provided in
 ### Tools & Technologies  
 - **MySQL Workbench**
 - **Quering Language:** SQL 
----
 
-## Contents  
+
+### Contents  
 - **I.** *Data Cleaning: Handling Missing and Unnecessary Data*  
 - **II.** *Data Transformation: Converting and Formatting Data*  
 - **III.** *Feature Engineering: Extracting Useful Information from Timestamps*  
