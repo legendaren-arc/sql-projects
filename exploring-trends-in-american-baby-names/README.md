@@ -50,7 +50,7 @@ This project involved advanced **SQL data analysis techniques**, emphasizing bot
 These techniques demonstrate the **real-world application of SQL for data exploration, storytelling, and business intelligence**.
 
 
-## 📈 Key Findings
+## Key Findings
 
 1. **Long-standing Names:**  
    Names such as `Mary` and `James` dominated popularity rankings for decades, symbolizing cultural stability.
@@ -78,7 +78,6 @@ In a business setting, similar techniques could be used to:
 
 By transforming a cultural dataset into a business-analytics-style study, this project demonstrates the **transferability of SQL analytics** to real-world decision-making scenarios.
 
----
 
 ## Tools & Environment
 
@@ -87,7 +86,6 @@ By transforming a cultural dataset into a business-analytics-style study, this p
 - **Techniques:** Data Querying · Aggregation · Temporal Analysis · Window Functions  
 - **Documentation:** Markdown reporting integrated with SQL outputs  
 
----
 
 ## Learning Outcomes
 
@@ -98,7 +96,6 @@ Through this project, I strengthened my ability to:
 - Bridge **data analysis with storytelling**, presenting insights that resonate with real-world applications.  
 - Apply SQL as a **strategic tool for pattern discovery and business intelligence**.
 
----
 
 ## 🏁 Conclusion
 
