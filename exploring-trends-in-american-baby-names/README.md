@@ -1,4 +1,4 @@
-# 👶 Exploring Trends in American Baby Names
+# Exploring Trends in American Baby Names
 
 This project presents a data-driven exploration of **historical baby naming trends in the United States**, using a comprehensive dataset sourced from **DataCamp’s PostgreSQL database**.  
 
